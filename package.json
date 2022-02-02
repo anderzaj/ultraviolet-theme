@@ -1,15 +1,22 @@
 {
   "name": "ultraviolet",
-  "displayName": "Ultraviolet VSCode",
+  "displayName": "Ultraviolet",
   "version": "0.1.0",
   "description": "VSCode Theme inspired by the Slack Ultraviolet Theme.",
+  "publisher": "anderzaj",
   "author": {
-    "name": "Andres Kemeny"
+    "name": "anderzaj"
   },
+  "license": "MIT",
   "icon": "images/icon.png",
+  "keywords": [
+    "VSCode",
+    "Theme",
+    "Ultraviolet",
+    "Slack"
+  ],
   "categories": [
-    "Themes",
-    "Programming Languages"
+    "Themes"
   ],
   "engines": {
     "vscode": "^1.0.0"
@@ -22,5 +29,14 @@
     "type": "git",
     "url": "https://github.com/andreskemeny/ultraviolet-theme.git"
   },
-  "homepage": "https://github.com/andreskemeny/ultraviolet-theme"
+  "homepage": "https://github.com/andreskemeny/ultraviolet-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ultraviolet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ultraviolet.json"
+      }
+    ]
+  }
 }
